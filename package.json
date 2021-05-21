@@ -1,0 +1,33 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "auth passport",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orysiayashchun/web_lab5_Socket.git"
+  },
+  "author": "Orysia Yashchun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orysiayashchun/web_lab5_Socket/issues"
+  },
+  "homepage": "https://github.com/orysiayashchun/web_lab5_Socket#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.0.2"
+  },
+  "dependencies": {
+    "http": "*"
+  }
+}
